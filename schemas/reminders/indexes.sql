@@ -1,0 +1,1 @@
+CREATE INDEX [IX_Upcoming_Reminders] ON [Reminders]([Status], [DueAt]);
