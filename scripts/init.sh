@@ -19,8 +19,8 @@ sqlcmd -U sa -P $SA_PASSWORD -S $DB_SERVER -d $DB_NAME -i schemas/subscriptions/
 sqlcmd -U sa -P $SA_PASSWORD -S $DB_SERVER -d $DB_NAME -i schemas/users/tables.sql
 sqlcmd -U sa -P $SA_PASSWORD -S $DB_SERVER -d $DB_NAME -i schemas/channels/tables.sql
 sqlcmd -U sa -P $SA_PASSWORD -S $DB_SERVER -d $DB_NAME -i schemas/subscription_channel_settings/tables.sql
-sqlcmd -U sa -P $SA_PASSWORD -S $DB_SERVER -d $DB_NAME -i schemas/reminders/table.sql
-sqlcmd -U sa -P $SA_PASSWORD -S $DB_SERVER -d $DB_NAME -i schemas/channel_preferences/table.sql
+sqlcmd -U sa -P $SA_PASSWORD -S $DB_SERVER -d $DB_NAME -i schemas/reminders/tables.sql
+sqlcmd -U sa -P $SA_PASSWORD -S $DB_SERVER -d $DB_NAME -i schemas/channel_preferences/tables.sql
 sqlcmd -U sa -P $SA_PASSWORD -S $DB_SERVER -d $DB_NAME -i schemas/reminder_channel_overrides/table.sql
 
 # Create indexes
