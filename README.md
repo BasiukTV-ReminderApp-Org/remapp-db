@@ -17,12 +17,14 @@ To test the database created by `remapp-db/scripts/init.sh` running in a local S
     export DB_SERVER=localhost
     export DB_NAME=remapp_db
     export SA_PASSWORD=MyPassword123
+    export ENV=local
     ```
 
 3. **Run the initialization script:**
 
     ```sh
     ./scripts/init.sh
+    ./scripts/seed.sh
     ```
 
 4. **Verify the database setup:**
